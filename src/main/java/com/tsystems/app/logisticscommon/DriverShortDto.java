@@ -10,6 +10,7 @@ public class DriverShortDto implements Serializable {
     private String firstName;
     private String lastName;
     private String personalNumber;
+    private String login;
 
     public Long getId() {
         return id;
@@ -41,5 +42,13 @@ public class DriverShortDto implements Serializable {
 
     public void setPersonalNumber(String personalNumber) {
         this.personalNumber = personalNumber;
+    }
+
+    public String getLogin() {
+        return login;
+    }
+
+    public void setLogin(String login) {
+        this.login = login;
     }
 }
